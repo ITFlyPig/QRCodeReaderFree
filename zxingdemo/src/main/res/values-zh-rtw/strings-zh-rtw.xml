@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QR碼讀取器</string>
+
+    <string name="history">掃描記錄</string>
+    <string name="copy">複製網址</string>
+    <string name="copynourl">複製掃描結果</string>
+    <string name="cancel">取消</string>
+    <string name="comment">評價我們</string>
+    <string name="open">打開網址</string>
+    <string name="feedback">意見反映</string>
+    <string name="more">更多</string>
+    <string name="album">相簿</string>
+    <string name="delete">删除</string>
+</resources>

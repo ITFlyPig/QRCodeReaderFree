@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryDark">#32a6ef</color>
+    <color name="colorPrimary">#32a6ef</color>
+    <color name="navigationBarColor">#32a6ef</color>
+
+    <color name="colorPrimaryDarkTrans">#32a6ef</color>
+
+    <color name="line">#c9c5c5</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#ffffff</color>
+
+
+    <color name="black">#99000000</color>
+    <color name="title_selected">#2acb98</color>
+    <color name="title_select">#5e5e5e</color>
+    <color name="lin_no_select">#00000000</color>
+    <color name="lin_color">#eeeeee</color>
+    <color name="item_text_color">#5e5e5e</color>
+    <color name="fa">#fafafa</color>
+    <color name="tab_bg">#ffffff</color>
+    <color name="title_bg">#feef00</color>
+    <color name="app">#99000000</color>
+    <color name="text_color">#3c3c3c</color>
+</resources>

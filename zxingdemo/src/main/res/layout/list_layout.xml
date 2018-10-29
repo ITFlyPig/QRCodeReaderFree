@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/MatchWrap.Vertical"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    xmlns:ads="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:id="@+id/main_title"
+        style="@style/MatchWrap.Vertical"
+        android:layout_height="45dp"
+        android:background="#000000">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/history"
+            android:textColor="#ffffff"
+            android:textSize="15sp" />
+        <LinearLayout
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:onClick="clickback"
+            android:gravity="center">
+            <ImageView
+                android:id="@+id/games_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="clickback"
+                android:layout_gravity="center"
+                android:src="@drawable/defaultleft"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+
+
+    <ListView
+        android:layout_below="@id/main_title"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/white"
+        android:id="@+id/musicListView"
+        android:divider="@color/line"
+        android:paddingLeft="13dp"
+        android:paddingRight="13dp"
+        android:dividerHeight="0.2dp"
+        android:scrollbars="none"
+        />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:hardwareAccelerated="true"
+        android:background="#00000000"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_unit"/>
+
+</RelativeLayout>

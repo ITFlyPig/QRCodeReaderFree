@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:id="@+id/dialog_copy"
+    android:orientation="vertical">
+   <!-- <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="WebSite:"
+        android:textColor="@android:color/black"/>-->
+    <TextView
+        android:id="@+id/content_url"
+        android:layout_width="fill_parent"
+        android:background="@drawable/round_text_out"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:singleLine="false"
+        android:minHeight="50dp"
+        android:layout_gravity="center"
+        android:textColor="@android:color/black"/>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/line"/>
+    <TextView
+        android:id="@+id/open_url"
+        android:layout_width="fill_parent"
+        android:background="@drawable/round_text_out"
+        android:layout_height="50dip"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="@string/open"
+        android:textColor="@android:color/black"/>
+    <TextView
+        android:id="@+id/copy_url"
+        android:layout_width="fill_parent"
+        android:background="@drawable/round_text_out"
+        android:layout_height="50dip"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="@string/copy"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:id="@+id/txt_cancel"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:background="@drawable/round_text_out"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="@string/cancel"
+        android:textColor="@android:color/black"/>
+
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QR Code Reader</string>
+
+   <string name="history">History</string>
+    <string name="copy">Copy the website</string>
+
+    <string name="copynourl">Copy the results</string>
+    <string name="cancel">Cancel</string>
+    <string name="more">More</string>
+    <string name="feedback">Feedback</string>
+    <string name="comment">Rate this app</string>
+    <string name="open">Open the website</string>
+    <string name="album">Album</string>
+    <string name="nofindRQ">No QR code have been found.</string>
+ <string name="delete">Delete</string>
+</resources>

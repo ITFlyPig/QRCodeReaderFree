@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">二维码快查</string>
+
+    <string name="history">历史记录</string>
+    <string name="copy">复制网址</string>
+    <string name="copynourl">复制扫描结果</string>
+
+    <string name="comment">好评鼓励</string>
+
+
+    <string name="cancel">取消</string>
+    <string name="more">更多</string>
+    <string name="feedback">建议反馈</string>
+    <string name="open">打开网址</string>
+    <string name="album">相册</string>
+    <string name="nofindRQ">未发现二维码</string>
+    <string name="delete">删除</string>
+    <string name="policy">隐私政策</string>
+</resources>

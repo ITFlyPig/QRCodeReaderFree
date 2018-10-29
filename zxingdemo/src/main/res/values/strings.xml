@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QR Code Reader</string>
+    <string name="history">History</string>
+    <string name="copy">Copy the website</string>
+
+    <string name="copynourl">Copy the results</string>
+    <string name="cancel">Cancel</string>
+    <string name="more">More</string>
+    <string name="feedback">Feedback</string>
+    <string name="comment">Rate this app</string>
+    <string name="open">Open the website</string>
+
+    <string name="album">Album</string>
+
+    <string name="banner_unit">ca-app-pub-1001033423802507/4774697274</string>
+    <string name="ad_unit_id">ca-app-pub-1001033423802507/6251430478</string>
+
+    <string name="nofindRQ">No QR code have been found.</string>
+    <string name="delete">Delete</string>
+<!--    <string name="banner_unit">ca-app-pub-9224978836240566/4375168336</string>
+    <string name="ad_unit_id">ca-app-pub-9224978836240566/5851901534</string>-->
+  <!--  <string name="banner_unit">ca-app-pub-2132020239925709/2615262476</string>
+    <string name="ad_unit_id">ca-app-pub-2132020239925709/4091995679</string>-->
+    <string name="policy">privacy policy</string>
+
+
+</resources>
